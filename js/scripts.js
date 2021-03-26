@@ -7,7 +7,7 @@ $(document).ready(function () {
     const cat = $("input:radio[value=cats]:checked").val();
     const dog = $("input:radio[value=dogs]:checked").val();
     const pop = $("input:radio[value=pop]:checked").val();
-    const rnb = $("input:radio[value=r&b]:checked").val();
+    const rnb = $("input:radio[value=rnb]:checked").val();
     const rock = $("input:radio[value=rock]:checked").val();
     const rain = $("input:radio[value=rain]:checked").val();
     const snow = $("input:radio[value=snow]:checked").val();
@@ -16,9 +16,17 @@ $(document).ready(function () {
     const petrichor = $("input:radio[value=petrichor]:checked").val();
 
     if (cat,orange,pop,rain,hot) {
-      $("#result1").show()
+      $("#result1").show();
+    } else if (blue,dog,rnb,rain,petrichor) {
+      $("#result2").show();
+    } else if (green,cat,rock,snow,soft) {
+      $("#result3").show();  
+    } else if (orange,dog,pop,snow,hot) {
+      $("#result1").show(); 
+    } else if (blue,cat,rnb,rain,soft) {
+      $("#result3").show();         
     } else {
-      $("#result2").show()
+      $("#result2").show();
     }
   });
 }); 
