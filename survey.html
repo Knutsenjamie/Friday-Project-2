@@ -10,7 +10,7 @@
 <body>
   <div class="container">
     <h1>Programming Survey</h1>
-    <p>Out of all of these, what is your favorite color?</p>
+    <p>Out of all of these, what is your <strong>favorite</strong> color?</p>
     <form id="question1">
       <div class="radio">
         <label>
@@ -31,7 +31,7 @@
         </label>
       </div>
     </form>
-    <p>Do you prefer cats or dogs?</p>
+    <p>Do you prefer cats <em>or</em> dogs?</p>
     <form id="question2">
       <div class="radio">
         <label>
@@ -46,7 +46,7 @@
         </label>
       </div>
     </form>
-  <p>What is your favorite kind of music out of these three options?</p>
+  <p>What is your favorite kind of music <strong>out of these three options?</strong></p>
     <form id="question3">
       <div class="radio">
         <label>
@@ -66,7 +66,7 @@
         </label>
       </div>
     </form>
-    <p>Rain or snow?</p>
+    <p>Rain <em>or</em> snow?</p>
     <form id="question4">
       <div class="radio">
         <label>
@@ -102,9 +102,19 @@
         </label>
       </div>
     </form>
-    <label for="enterbox">Enter Name</label>
-    <input id="enterbox" type="text" required>
-    <button type="submit" class="btn">Submit</button>
-</div>
+    <button type="submit" class="btn btn-info">Submit</button>
+  </div>
+  
+  <div class="results box">
+    <div id="result1">Ruby
+      <p>Ruby is blah blah blah</p>
+    </div>
+    <div id="result2">C#
+      <p>C# is blah blah blah</p>
+    </div>
+    <div id="result3">JavaScript
+      <p>JavaScript is blah blah blah</p>
+    </div>
+  </div>  
 </body>
 </html>
