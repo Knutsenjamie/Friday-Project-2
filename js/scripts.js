@@ -2,10 +2,18 @@ $(document).ready(function () {
   $("form#multiquestions").submit (function (event) {
     event.preventDefault();
     const orange = $("input:radio[value=orange]:checked").val();
-    const cat = $("input:radio[value=cat]:checked").val();
+    const blue = $("input:radio[value=blue]:checked").val();
+    const green = $("input:radio[value=green]:checked").val();
+    const cat = $("input:radio[value=cats]:checked").val();
+    const dog = $("input:radio[value=dogs]:checked").val();
     const pop = $("input:radio[value=pop]:checked").val();
+    const rnb = $("input:radio[value=r&b]:checked").val();
+    const rock = $("input:radio[value=rock]:checked").val();
     const rain = $("input:radio[value=rain]:checked").val();
+    const snow = $("input:radio[value=snow]:checked").val();
     const hot = $("input:radio[value=hotcoffee]:checked").val();
+    const soft = $("input:radio[value=softbakedcookies]:checked").val();
+    const petrichor = $("input:radio[value=petrichor]:checked").val();
 
     if (cat,orange,pop,rain,hot) {
       $("#result1").show()
