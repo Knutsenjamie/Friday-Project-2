@@ -8,20 +8,35 @@ display: none;
 display: none;
 }
 
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .textwrap1{
   float: right;
   margin: 20px;
-  border: 10px solid rgb(54, 54, 129);
+  border: 5px solid rgb(117, 117, 117);
 }
 
 .textwrap2{
   float: left;
   margin: 10px;
-  border: 10px solid rgb(54, 54, 129);
+  border: 5px solid rgb(117, 117, 117);
 }
 
 .textwrap3{
   float: right;
   margin: 20px;
-  border: 10px solid rgb(54, 54, 129);
+  border: 5px solid rgb(117, 117, 117);
+}
+
+.boxy{
+  border: 5px solid rgb(117, 117, 117);
+  padding: 5px;
+  margin-bottom: 0.49cm;
+  background-color: rgb(173, 214, 241);
+}
+
+.jumbotron{
+  color: rgb(114, 155, 182);
 }
