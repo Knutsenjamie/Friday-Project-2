@@ -8,6 +8,20 @@ display: none;
 display: none;
 }
 
-text {
-  font-family: Cambria;
+.textwrap1{
+  float: right;
+  margin: 20px;
+  border: 10px solid rgb(54, 54, 129);
+}
+
+.textwrap2{
+  float: left;
+  margin: 10px;
+  border: 10px solid rgb(54, 54, 129);
+}
+
+.textwrap3{
+  float: right;
+  margin: 20px;
+  border: 10px solid rgb(54, 54, 129);
 }
