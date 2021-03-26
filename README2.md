@@ -1,7 +1,7 @@
-# _Jamie's Portfolio_
+# _Friday Project 2_
 
 
-### _Second Friday Project_
+### __Programming Language Suggester_
 
 ##### By:
 #####  _**Jamie Knutsen**_ _©2021_
@@ -18,7 +18,7 @@
 
 ## Description
 
-<!-- _This project was designed to be a portfolio for me reflecting my current work and skills learned at Epicodus._ -->
+This application was designed to show JavaScript and jQuery knowledge of branching by making an application that allows user input and returns an answer.
 
 ## Setup/Installation Requirements
 _you can view this webpage by checking out the url:_
