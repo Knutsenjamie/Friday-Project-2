@@ -22,12 +22,12 @@ This application was designed to show JavaScript and jQuery knowledge of branchi
 
 ## Setup/Installation Requirements
 _you can view this webpage by checking out the url:_
-<!-- https://knutsenjamie.github.io/Friday-Project-1/ -->
+https://github.com/Knutsenjamie/Friday-Project-2
 1. Open terminal
 2. Input these commands into terminal's command line:
 
 * cd desktop
-<!-- * git clone https://github.com/Knutsenjamie/Friday-Project-1.git -->
+https://github.com/Knutsenjamie/Friday-Project-2
 * code .
 
 ## Licensing
