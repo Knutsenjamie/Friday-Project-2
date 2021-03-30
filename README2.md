@@ -1,7 +1,7 @@
 # _Friday Project 2_
 
 
-### __Programming Language Suggester_
+### _Programming Language Suggester_
 
 ##### By:
 #####  _**Jamie Knutsen**_ _©2021_
