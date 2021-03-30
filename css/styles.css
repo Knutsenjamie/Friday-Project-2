@@ -12,21 +12,15 @@ h1 {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.textwrap1{
+.textwrapright{
   float: right;
   margin: 20px;
   border: 5px solid rgb(117, 117, 117);
 }
 
-.textwrap2{
+.textwrapleft{
   float: left;
   margin: 10px;
-  border: 5px solid rgb(117, 117, 117);
-}
-
-.textwrap3{
-  float: right;
-  margin: 20px;
   border: 5px solid rgb(117, 117, 117);
 }
 
