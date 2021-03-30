@@ -16,17 +16,29 @@ $(document).ready(function () {
     const petrichor = $("input:radio[value=petrichor]:checked").val();
 
     if (cat,orange,pop,rain,hot) {
-      $("#result1").show();
+      $("#result-c").hide();
+      $("#result-javascript").hide();
+      $("#result-ruby").show();
     } else if (blue,dog,rnb,rain,petrichor) {
-      $("#result2").show();
+      $("#result-javascript").hide();
+      $("#result-ruby").hide();
+      $("#result-c").show();
     } else if (green,cat,rock,snow,soft) {
-      $("#result3").show();  
+      $("#result-ruby").hide();
+      $("#result-c").hide();
+      $("#result-javascript").show();  
     } else if (orange,dog,pop,snow,hot) {
-      $("#result1").show(); 
+      $("#result-javascript").hide();
+      $("#result-c").hide();
+      $("#result-ruby").show(); 
     } else if (blue,cat,rnb,rain,soft) {
-      $("#result3").show();         
+      $("#result-c").hide();
+      $("#result-ruby").hide();
+      $("#result-javascript").show();         
     } else {
-      $("#result2").show();
+      $("#result-javascript").hide();
+      $("#result-ruby").hide();
+      $("#result-c").show();
     }
   });
 }); 
